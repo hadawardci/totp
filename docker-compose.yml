@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8180:8080"
+    environment:
+      - TOTP_SECRET=9987987987987
